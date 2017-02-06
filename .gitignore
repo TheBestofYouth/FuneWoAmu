@@ -1,0 +1,27 @@
+# Build output
+bin/
+obj/
+
+# VS files
+*.suo
+*.DotSettings
+*.user
+*.vstemplate
+!src/CodeGen/ODataT4CodeGenerator.vstemplate
+
+# TFS files
+*.vspscc
+
+# VS2015 IDE generated files
+sln/*.ide/
+sln/.vs/
+
+# StyleCop files
+StyleCop.Cache
+
+# Downloaded Nuget packages
+sln/packages/
+
+
+# Symbol
+*.pdb
